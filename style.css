@@ -8,6 +8,22 @@
 .about {
   margin-top: 100px;
 }
+.about h1 {
+  font-size: 60px;
+}
+.about h2 {
+  font: bold;
+  opacity: 100%;
+  font-size: 30px;
+}
+.about-section-content {
+  margin: 30px;
+}
+.myphoto {
+  width: 400px;
+  box-shadow: var(--box-shadow);
+}
+
 body {
   margin-bottom: 50px;
   font-family: var(--default-font-family);
@@ -69,20 +85,16 @@ p {
   text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+.secondary-link:hover {
+  color: rgb(7, 77, 80);
 }
 
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
   display: block;
-}
-
-.about-paragraphs {
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  margin: 10px;
 }
 
 .email-link {
@@ -107,7 +119,7 @@ p {
   padding: 20px 60px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 574px) {
   h1 {
     font-size: 48px;
     line-height: 1.5;
@@ -129,6 +141,18 @@ p {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+  .about {
+    text-align: center;
+    padding: 0;
+    margin-top: 40px;
+  }
+  .about h1 {
+    font-size: 50px;
+  }
+  .myphoto {
+    margin-top: 20px;
+    width: 300px;
   }
 }
 @media (max-width: 900px) {
@@ -153,5 +177,17 @@ p {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+  .about {
+    text-align: center;
+    padding: 0;
+    margin-top: 40px;
+  }
+  .about h1 {
+    font-size: 50px;
+  }
+  .myphoto {
+    margin-top: 20px;
+    width: 300px;
   }
 }
