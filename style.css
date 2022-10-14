@@ -23,7 +23,23 @@
   width: 400px;
   box-shadow: var(--box-shadow);
 }
+.logo {
+  color: #3694a0;
+  text-decoration: none;
+  font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
+  cursor: pointer;
+  letter-spacing: 2px;
+  line-height: 60px;
+  text-shadow: rgb(155, 198, 196) 2px 2px 3px;
+  text-transform: uppercase;
+  font-weight: bold;
 
+  padding-right: 60px;
+}
+.logo:hover {
+  color: #3694a0;
+}
 body {
   margin-bottom: 50px;
   font-family: var(--default-font-family);
