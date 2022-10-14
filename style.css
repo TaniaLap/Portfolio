@@ -5,7 +5,9 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
-
+.about {
+  margin-top: 100px;
+}
 body {
   margin-bottom: 50px;
   font-family: var(--default-font-family);
@@ -95,13 +97,17 @@ p {
   text-decoration: underline;
 }
 .hero {
-  background-color: var(--secondary-color);
+  background-image: linear-gradient(225deg, #fffeff 0%, #c1fefd 100%);
   padding-top: 130px;
   padding-bottom: 30px;
   margin-bottom: 50px;
 }
-.liColor {
-  color: #3694a0;
+
+.project-description {
+  padding: 20px 60px;
+}
+.color-name {
+  color: red;
 }
 
 @media (max-width: 576px) {
@@ -118,7 +124,10 @@ p {
   p {
     text-align: center;
   }
-
+  .project-description {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
   .project-link {
     display: block;
     text-align: center;
