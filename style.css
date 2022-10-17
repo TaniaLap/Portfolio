@@ -1,9 +1,10 @@
 :root {
   --primary-color: #3694a0;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   --secondary-color: #dffaf8;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
+  --heading-color: rgb(201, 160, 66);
 }
 
 nav li {
@@ -29,7 +30,8 @@ li a {
   text-decoration: none;
 }
 .content-container {
-  margin-top: 100px;
+  margin-top: 50px;
+  text-align: center;
 }
 .content-container h1 {
   font-size: 60px;
@@ -77,16 +79,23 @@ h3 {
 
 h1 {
   font-size: 80px;
+  color: var(--heading-color);
 }
 
 h2 {
   font-size: 48px;
+  color: var(--primary-color);
 }
 
 h3 {
   font-size: 24px;
+  color: var(--primary-color);
 }
-
+h4 {
+  font-size: 24px;
+  color: var(--heading-color);
+  font-family: var(--heading-font-family);
+}
 p {
   font-size: 18px;
   line-height: 1.5;
@@ -111,8 +120,9 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--primary-color);
+  background-color: var(--primary-color);
   box-shadow: var(--box-shadow);
+  border: 1px solid var(--primary-color);
   color: white;
 }
 
@@ -152,13 +162,63 @@ p {
 }
 .hero {
   background-image: linear-gradient(225deg, #fffeff 0%, #c1fefd 100%);
-  padding-top: 130px;
+  padding-top: 100px;
   padding-bottom: 30px;
   margin-bottom: 50px;
 }
 
 .project-description {
   padding: 20px 60px;
+}
+.btn-fill {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+
+  padding: 15px 25px;
+  transition: all 150ms ease-in-out;
+  text-decoration: none;
+}
+
+.btn-fill:hover {
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+footer .email-link a {
+  color: var(--primary-color);
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  transition: all 150ms ease-in-out;
+}
+
+footer .email-link a:hover {
+  color: #76d6e2;
+}
+
+footer .social-icons a {
+  background-color: #f3f1ee;
+  border-radius: 50%;
+  color: var(--primary-color);
+  font-size: 18px;
+  margin: 0 10px;
+  padding: 10px 15px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-icons a:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+footer .work-inquiry {
+  background-color: #f3f1ee;
+  border-radius: 10px;
+  margin: 40px 0;
+  padding: 40px 120px;
 }
 
 @media (max-width: 574px) {
@@ -180,7 +240,9 @@ p {
     font-size: 32px;
     text-align: center;
   }
-
+  h4 {
+    text-align: center;
+  }
   p {
     text-align: center;
   }
@@ -216,7 +278,9 @@ p {
     font-size: 32px;
     text-align: center;
   }
-
+  h4 {
+    text-align: center;
+  }
   p {
     text-align: center;
   }
