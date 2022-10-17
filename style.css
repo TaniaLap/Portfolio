@@ -96,6 +96,11 @@ h4 {
   color: var(--heading-color);
   font-family: var(--heading-font-family);
 }
+h5 {
+  font-size: 24px;
+  font-family: var(--heading-font-family);
+}
+
 p {
   font-size: 18px;
   line-height: 1.5;
@@ -196,7 +201,7 @@ footer .email-link a {
 }
 
 footer .email-link a:hover {
-  color: #76d6e2;
+  color: rgb(79, 79, 79);
 }
 
 footer .social-icons a {
@@ -220,7 +225,15 @@ footer .work-inquiry {
   margin: 40px 0;
   padding: 40px 120px;
 }
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
 
+a:hover {
+  color: rgb(79, 79, 79);
+  cursor: pointer;
+}
 @media (max-width: 574px) {
   .logo {
     font-size: 20px;
