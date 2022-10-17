@@ -5,6 +5,29 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
+
+nav li {
+  display: inline;
+  line-height: 60px;
+  list-style: none;
+  margin-left: 15px;
+}
+
+nav a {
+  color: var(--paragraph-color);
+}
+
+nav li.active a,
+nav a:hover {
+  color: var(--primary-color);
+}
+
+ul {
+  margin-bottom: 0;
+}
+li a {
+  text-decoration: none;
+}
 .content-container {
   margin-top: 100px;
 }
@@ -139,6 +162,15 @@ p {
 }
 
 @media (max-width: 574px) {
+  .logo {
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+    line-height: 60px;
+    padding-right: 0px;
+  }
+  nav li {
+    margin-left: 3px;
+  }
   h1 {
     font-size: 48px;
     line-height: 1.3;
