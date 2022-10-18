@@ -31,6 +31,7 @@ li a {
 }
 .content-container {
   text-align: center;
+  margin-top: 30px;
 }
 .content-container h1 {
   font-size: 60px;
@@ -113,12 +114,9 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin-top: 50px;
+  margin-bottom: 40px;
   justify-content: center;
-}
-
-.navigation-links a {
-  margin: 20px;
 }
 
 .primary-link {
@@ -288,7 +286,9 @@ a:hover {
   .content-container {
     text-align: center;
     padding: 0;
-    margin-top: 60px;
+  }
+  .content {
+    margin-top: 0px;
   }
   .content-container h1 {
     font-size: 50px;
@@ -325,7 +325,9 @@ a:hover {
   .content-container {
     text-align: center;
     padding: 0;
-    margin-top: 60px;
+  }
+  .content {
+    margin-top: 0px;
   }
   .content-container h1 {
     font-size: 50px;
