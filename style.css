@@ -182,7 +182,7 @@ p {
   text-decoration: underline;
 }
 .hero {
-  background-image: linear-gradient(225deg, #f3efeb 0%, #bbefee 100%);
+  background-image: linear-gradient(225deg, #f3efeb 0%, #eadfcd 100%);
   padding-top: 80px;
   padding-bottom: 30px;
   margin-bottom: 50px;
