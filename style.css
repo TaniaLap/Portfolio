@@ -30,7 +30,6 @@ li a {
   text-decoration: none;
 }
 .content-container {
-  margin-top: 50px;
   text-align: center;
 }
 .content-container h1 {
@@ -45,6 +44,7 @@ li a {
   margin: 30px;
 }
 .myphoto {
+  margin-top: 60px;
   width: 400px;
   box-shadow: var(--box-shadow);
 }
@@ -185,7 +185,7 @@ p {
 }
 .hero {
   background-image: linear-gradient(225deg, #f3efeb 0%, #bbefee 100%);
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 30px;
   margin-bottom: 50px;
 }
