@@ -12,6 +12,7 @@ a.nav-link {
 
 li a {
   text-decoration: none;
+  text-align: right;
 }
 .content-container {
   text-align: center;
@@ -277,8 +278,14 @@ a:hover {
     font-size: 50px;
   }
   .myphoto {
-    margin-top: 20px;
+    margin-top: 0px;
     width: 300px;
+    margin-bottom: 20px;
+  }
+  .row {
+    width: 574px;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 }
 @media (max-width: 900px) {
@@ -325,7 +332,8 @@ a:hover {
     font-size: 50px;
   }
   .myphoto {
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
     width: 300px;
   }
 }
